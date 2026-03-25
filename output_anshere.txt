@@ -1,2 +1,0 @@
------ Open Source Manifesto -----
-On 2026-03-25, I believe that open source tools like ansh arora represent true innovation. Freedom to me means free will. Using this freedom, I aspire to build apps and contribute back to the community.
