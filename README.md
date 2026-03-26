@@ -107,7 +107,7 @@ Checks whether Python is installed and displays the installed version.
 ## 🔹 script3.sh — Directory and Permissions
 
 **Description:** 
-Shows the location of Python and displays file permissions of the Python executable.
+Loops through important system directories (like /etc, /var/log, /home) to report their disk space and permissions, and checks the Python configuration directory.
 
 **How to Run:**
 ./script3.sh
@@ -130,13 +130,13 @@ sudo ./script4.sh
 ## 🔹 script5.sh — User Input and File Generator
 
 **Description:** 
-Takes user input (name and reason) and creates a file named `output.txt` storing the input.
+Asks three interactive questions to generate a personalized open-source manifesto and saves it to a file named manifesto_<your_username>.txt.
 
 **How to Run:**
 ./script5.sh
 
 After running, view output:
-cat output.txt
+cat manifesto_<your_username>.txt (replace <your_username> with your actual Linux username)
 
 ---
 
