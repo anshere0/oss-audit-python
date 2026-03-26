@@ -55,7 +55,6 @@ sudo apt install python3
 - script3.sh
 - script4.sh
 - script5.sh
-- output.txt
 - README.md
 
 ---
@@ -121,6 +120,8 @@ Counts the number of error messages present in system logs.
 
 **How to Run:**
 ./script4.sh
+./script4.sh /var/log/syslog
+
 
 **Note:** If permission error occurs:
 sudo ./script4.sh
