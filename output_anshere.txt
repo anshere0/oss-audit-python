@@ -1,0 +1,2 @@
+----- Open Source Manifesto -----
+On 2026-03-25, I believe that open source tools like python represent true innovation. Freedom to me means freedom. Using this freedom, I aspire to build app and contribute back to the community.

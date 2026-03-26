@@ -22,4 +22,7 @@ while IFS= read -r LINE; do
 done < "$LOGFILE"
 
 # Output
+# Show last 5 matching lines
+echo "Last 5 matching lines:"
+grep -i "$KEYWORD" "$LOGFILE" | tail -5
 echo "Keyword '$KEYWORD' found $COUNT times in $LOGFILE"
